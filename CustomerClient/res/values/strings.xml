@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">用户端</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tab1">主页</string>
+    <string name="tab2">问诊</string>
+    <string name="tab3">健康</string>
+    <string name="tab4">个人</string>
+    <string name="appName">妈妈问</string>
+    <string name="oldprice"><s>原价18元</s></string>
+    <string name="title_activity_add_patient_info">AddPatientInfoActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">姓名</string>
+    <string name="sex">性别</string>
+    <string name="birthday">出生日期</string>
+    <string name="Departments">科室</string>
+    <string name="finddoctor">找医生</string>
+    <string name="sure_add">确认添加</string>
+    <string name="bindAccount">绑定账号</string>
+    <string name="changepassword">修改密码</string>
+    <string name="newMessageNotification">新消息通知</string>
+    <string name="cacheClean">清理缓存</string>
+    <string name="aboutUs">关于我们</string>
+    <string name="outLog">退出登录</string>
+    <string name="version">妈妈问 V1.0</string>
+    <string name="versionUpdate">版本更新</string>
+    <string name="servicenumber">客服电话        800 820 5555</string>
+    <string name="copyRigth">Copyright@2015 YIYA.ALL Rights Reserved</string>
+    <string name="openVip">开通会员</string>
+    <string name="setNewPassword">设置新密码</string>
+    <string name="oldPassword">原密码</string>
+    <string name="newPassword">新密码</string>
+    <string name="doubleCheck">再次确认</string>
+    <string name="sure">确认</string>
+    <string name="sure_recharge">确认充值</string>
+    <string name="alipayPay">支付宝支付</string>
+    <string name="wechatPay">微信支付</string>
+    <string name="backcardPay">银行卡支付</string>
+    <string name="shits">吐槽</string>
+    <string name="shits_content">我们懂得聆听，知错就改，您的意见是</string>
+    <string name="commit">提交</string>
+    <string name="contact">联系人</string>
+    <string name="message">消息</string>
+    <string name="basicInfo">基本信息</string>
+    <string name="newMessnoti_01">如果你要关闭或开启应用的新消息提醒，请在“设置”-“通知”功能中，找到应用程序来修改</string>
+    <string name="newMessnoti_02">若关闭，当收到应用消息时，通知提示将不显示发信人和内容摘要。</string>
+    <string name="newMessnoti_03">当应用在运行时，你可以设置是否需要声音或者震动。</string>
+    <string name="notiShowMessDetial">通知显示消息详情</string>
+    <string name="voice">声音</string>
+    <string name="shock">震动</string>
+    <string name="balance">余额</string>
+    <string name="balance_detial">余额明细</string>
+    <string name="recharge">充值</string>
+    <string name="withdraw">提现</string>
+    <string name="account_recharge">账户充值</string>
+    <string name="rechange_amount">充值数目</string>
+    <string name="choice_pay_way">选择支付方式</string>
+
+</resources>

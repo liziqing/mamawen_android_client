@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_red" >
+
+    <RadioGroup
+        android:id="@+id/main_rd_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <RadioButton
+            android:id="@+id/rd_mainpage"
+            style="@style/tab_of_radio_button"
+            android:checked="true"
+            android:drawableTop="@drawable/main"
+            android:text="@string/tab1" />
+
+        <RadioButton
+            android:id="@+id/rd_consultation"
+            style="@style/tab_of_radio_button"
+            android:drawableTop="@drawable/consultation"
+            android:text="@string/tab2" />
+
+        <RadioButton
+            android:id="@+id/rd_health"
+            style="@style/tab_of_radio_button"
+            android:drawableTop="@drawable/health"
+            android:text="@string/tab3" />
+
+        <RadioButton
+            android:id="@+id/rd_discovery"
+            style="@style/tab_of_radio_button"
+            android:drawableTop="@drawable/discovery"
+            android:text="@string/tab4" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/container_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/main_rd_group" >
+
+        <!-- <include layout="@layout/fragment_mainpager"/> -->
+    </FrameLayout>
+
+</RelativeLayout>
