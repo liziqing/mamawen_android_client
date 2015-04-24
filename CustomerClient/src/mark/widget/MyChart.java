@@ -141,7 +141,6 @@ public class MyChart extends View {
 		super(context, attrs);
 		mContext = getContext();
 		init();
-
 	}
 
 	private void init() {

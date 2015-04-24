@@ -33,6 +33,7 @@
     <string name="newPassword">新密码</string>
     <string name="doubleCheck">再次确认</string>
     <string name="sure">确认</string>
+    <string name="sureAsk">确认咨询</string>
     <string name="sure_recharge">确认充值</string>
     <string name="alipayPay">支付宝支付</string>
     <string name="wechatPay">微信支付</string>

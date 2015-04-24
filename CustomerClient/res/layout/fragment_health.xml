@@ -54,18 +54,72 @@
         android:textColor="@color/white"
         android:textSize="18sp" />
 
+    <!-- 备孕UI -->
+
     <mark.widget.MyChart
-        android:id="@+id/mychat_weight"
+        android:id="@+id/mychat_prepregnant"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
         android:layout_weight="1" />
 
+    <!-- 怀孕UI -->
+
     <mark.widget.MyChart
-        android:id="@+id/mychat_waistline"
+        android:id="@+id/mychat_pregnant_weigth"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:visibility="gone" />
+
+    <mark.widget.MyChart
+        android:id="@+id/mychat_pregnant_bp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:visibility="gone" />
+
+    <mark.widget.MyChart
+        android:id="@+id/mychat_pregnant_waistline"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:visibility="gone" />
+    <!-- 育儿UI -->
+
+    <mark.widget.MyChart
+        android:id="@+id/mychat_baby_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:visibility="gone" />
+
+    <mark.widget.MyChart
+        android:id="@+id/mychat_baby_milk"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:visibility="gone" />
+
+    <mark.widget.MyChart
+        android:id="@+id/mychat_baby_heigth"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:visibility="gone" />
+
+    <mark.widget.MyChart
+        android:id="@+id/mychat_baby_head"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:visibility="gone" />
 
 </LinearLayout>

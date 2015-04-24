@@ -12,12 +12,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.TextView;
 
 /**
  * 个人详情界面
  * 
  */
 public class PersonalDetialActivity extends Activity implements OnClickListener {
+	private TextView mTv;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +37,7 @@ public class PersonalDetialActivity extends Activity implements OnClickListener 
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case R.id.btn_back:
+			// 进入个人详情界面
 			PersonalDetialActivity.this.finish();
 			break;
 		}

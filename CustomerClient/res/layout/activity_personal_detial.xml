@@ -62,7 +62,7 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="30dp"
-            android:src="@drawable/right" />
+            android:src="@drawable/add_patient" />
     </RelativeLayout>
 
     <View
@@ -148,40 +148,33 @@
             android:textColor="@color/white"
             android:textSize="18sp" />
 
-        <TextView
+        <CheckBox
             android:id="@+id/tv_for_pregnant"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="50dp"
             android:layout_toRightOf="@+id/tv_state"
-            android:drawablePadding="3dp"
-            android:drawableTop="@drawable/right"
             android:text="备孕期"
             android:textColor="@color/white"
             android:textSize="16sp" />
 
-        <TextView
+        <CheckBox
             android:id="@+id/tv_pregnancy"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="10dp"
             android:layout_toRightOf="@+id/tv_for_pregnant"
             android:drawablePadding="3dp"
-            android:drawableTop="@drawable/right"
             android:text="怀孕期"
             android:textColor="@color/white"
             android:textSize="16sp" />
 
-        <TextView
+        <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="10dp"
             android:layout_toRightOf="@+id/tv_pregnancy"
             android:drawablePadding="3dp"
-            android:drawableTop="@drawable/right"
             android:text="育儿期"
             android:textColor="@color/white"
             android:textSize="16sp" />

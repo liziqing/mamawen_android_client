@@ -29,8 +29,6 @@ public class StageActivity extends Activity implements OnClickListener {
 					R.anim.slide_out_left);
 			break;
 
-		default:
-			break;
 		}
 
 	}

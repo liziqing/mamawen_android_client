@@ -6,9 +6,12 @@
  */
 package cn.net_show.customer.activity;
 
+import mark.utils.MsgCenter;
 import cn.net_show.customer.R;
+import cn.net_show.customer.fragment.HealthFragment;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Message;
 import android.support.v4.app.FragmentActivity;
 import android.text.TextUtils;
 import android.view.View;
@@ -80,17 +83,21 @@ public class RegistActivity extends FragmentActivity implements OnClickListener 
 		// }
 
 		if (time.equals("备孕期")) {
+			super.onDestroy();
 			startActivity(new Intent(this, PrePregnantingActivity.class));
 			overridePendingTransition(R.anim.slide_in_right,
 					R.anim.slide_out_left);
+
 		} else if (time.equals("怀孕期")) {
 			startActivity(new Intent(this, PregnantingActivity.class));
 			overridePendingTransition(R.anim.slide_in_right,
 					R.anim.slide_out_left);
+
 		} else if (time.equals("育儿期")) {
 			startActivity(new Intent(this, StageActivity.class));
 			overridePendingTransition(R.anim.slide_in_right,
 					R.anim.slide_out_left);
+
 		}
 		Toast.makeText(this, "后台注册接口待完善！", Toast.LENGTH_SHORT).show();
 

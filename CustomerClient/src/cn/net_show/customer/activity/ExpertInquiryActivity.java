@@ -41,7 +41,19 @@ public class ExpertInquiryActivity extends Activity implements
 
 	private void initData() {
 		// 获得医生列表信息
+		mDoctorList = new ArrayList<>();
+		Doctor doctor1 = new Doctor();
+		doctor1.name = "黄华";
+		doctor1.title = "副主任医师";
+		doctor1.hospital = "上海交通大学儿童医学中心";
 
+		Doctor doctor2 = new Doctor();
+		doctor2.name = "dava";
+		doctor2.title = "主任医师";
+		doctor2.hospital = "北京医学中心";
+
+		mDoctorList.add(doctor1);
+		mDoctorList.add(doctor2);
 	}
 
 	private void initViews() {
@@ -61,10 +73,16 @@ public class ExpertInquiryActivity extends Activity implements
 			long id) {
 		mDoctor = mDoctorList.get(position);
 		// 进入专家详情界面
-		startActivity(new Intent(this, ExpertDetialActivity.class));
+
+		Intent intent = new Intent();
+		intent.setClass(ExpertInquiryActivity.this, ExpertDetialActivity.class);
+		// 将doctor对象通过intent传递
+		Bundle bundle = new Bundle();
+		bundle.putSerializable("doctor", mDoctor);
+		intent.putExtras(bundle);
+		startActivity(intent);
 		this.overridePendingTransition(R.anim.slide_in_right,
 				R.anim.slide_out_left);
-
 	}
 
 	@Override
